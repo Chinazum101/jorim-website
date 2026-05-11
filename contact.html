@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style type="text/css">
+              @font-face {
+            font-family: 'Sauce Tomato';
+            src: url('Sauce Tomato.otf') format('opentype');
+        }
+             @font-face {
+            font-family: 'Puffberry-Demo';
+            src: url('Puffberry-Demo.ttf') format('truetype');
+        }
+          @font-face {
+            font-family: 'Cream Cake';
+            src: url('Cream Cake.otf') format('opentype');
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        form{
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid plum;
+            border-radius: 8px;
+            width: 400px;
+        }
+        footer{
+              background-color:#ab60c0;
+              padding:10px;
+              text-align: center;
+              font-size:10px;
+              box-shadow:0 4px 8px black;
+              margin-top: 30px;
+            }
+            h1{
+                color: plum;
+                font-family:'Sauce Tomato',sans-serif;
+                text-align: center;
+                padding:none;
+            }
+            footer p{
+                color:white;
+                font-family: 'Poppins',sans-serif;
+            }
+            .click-btn{
+           background-color:#ab60c0;
+           color: plum;
+           padding:14px;
+           border-radius: 8px;
+           border: none;
+           font-size: 16px;
+           width:auto;
+           cursor: pointer;
+        }
+        .click-btn:hover{
+            background-color: purple;
+        }
+        .msg-btn{
+            display: inline-block;
+            background-color:purple;
+           color:white;
+           padding:14px;
+           border-radius: 100px;
+           border: none;
+           font-size: 16px;
+           width:auto;
+           text-decoration: none;
+           margin-top: 10px;
+           font-family: 'Puffberry-Demo',sans-serif;
+        }
+        .field-input{
+            flex: 1;
+            padding: 8px;
+            border-radius: 8px;
+           border: 1px solid plum;
+           background-color:plum;
+           box-shadow: 0 4px 8px black;
+           }
+              label{
+            font-weight: 600;
+           width: 130px;
+           display: inline-block;
+            color:plum;
+            flex-shrink: 0;
+            text-align: left;
+            font-family: 'Puffberry-Demo', sans-serif;
+        }
+        .form-grp{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+  
+        p{
+            text-align: center;
+            font-family: 'Puffberry-Demo',sans-serif;
+            color:#ab60c0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us:</h1>
+ <p> Phone numbers: 08034188171</p>
+ <form>
+    <div class="form-grp">
+    <label>Fullname:    </label>
+    <input class="field-input" type="text" placeholder="Enter your full name" required>
+ </div>
+
+
+    <div class="form-grp">
+  <label>Phone number:</label>
+    <input class="field-input"  type="number" placeholder="Enter your Phone number" required>
+</div>
+
+
+<div class="form-grp">
+  <label >E-mail:</label>
+    <input class="field-input"  type="email" placeholder="Enter your E-mail" required>
+ </div> 
+</form>
+<div style="text-align: center; margin-top: 16px;">
+     <a href="mailto:jorimgrace@gmail.com?subject=Inquiry for Jo'rim
+      Confectionaries and catering services" 
+      class="msg-btn"><span>Send us a message</span></a>
+</div>
+
+ <footer><p>© JO'RIM CONFECTIONARY AND CATERING SERVICES 2026. </br>
+ALL RIGHTS RESERVED </p>
+<button  class="click-btn"  onclick="window.location.href='jorimhome.html'">Home</button>
+<button  class="click-btn"  onclick="window.location.href='about.html'">About</button>
+<button  class="click-btn"  onclick="window.location.href='contact.html'">Contact</button>
+
+</footer>
+</body>
+</html>
